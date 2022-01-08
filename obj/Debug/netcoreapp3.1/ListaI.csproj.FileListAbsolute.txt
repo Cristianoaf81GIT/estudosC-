@@ -1,0 +1,13 @@
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\bin\Debug\netcoreapp3.1\ListaI.exe
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\bin\Debug\netcoreapp3.1\ListaI.deps.json
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\bin\Debug\netcoreapp3.1\ListaI.runtimeconfig.json
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\bin\Debug\netcoreapp3.1\ListaI.runtimeconfig.dev.json
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\bin\Debug\netcoreapp3.1\ListaI.dll
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\bin\Debug\netcoreapp3.1\ListaI.pdb
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\obj\Debug\netcoreapp3.1\ListaI.csprojAssemblyReference.cache
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\obj\Debug\netcoreapp3.1\ListaI.AssemblyInfoInputs.cache
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\obj\Debug\netcoreapp3.1\ListaI.AssemblyInfo.cs
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\obj\Debug\netcoreapp3.1\ListaI.csproj.CoreCompileInputs.cache
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\obj\Debug\netcoreapp3.1\ListaI.dll
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\obj\Debug\netcoreapp3.1\ListaI.pdb
+C:\Users\cristiano.alexandre\Desktop\studies\c#\ListaI\obj\Debug\netcoreapp3.1\ListaI.genruntimeconfig.cache
