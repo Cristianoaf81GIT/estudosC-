@@ -9,7 +9,7 @@ namespace ListaI
     static void Main(string[] args)
     {
 
-      SortedDictionaires();
+      SortedSets();
 
     }
 
@@ -170,6 +170,29 @@ namespace ListaI
       Console.WriteLine(alunos);
     }
 
+
+    static void SortedSets()
+    {
+      SortedSet<string> nomes = new SortedSet<string>() {
+        "gabriel","arthur","flávio","beatriz"
+      };
+
+      nomes.Add("marcos");
+      nomes.Add("gabriel");
+      nomes.Remove("flávio");
+
+      foreach (string item in nomes.Reverse())
+      {
+        Console.WriteLine(item);
+      }
+
+      Console.WriteLine("\n" + "elementAt " + nomes.ElementAt(2));
+      Console.WriteLine("\n" + "primeiro " + nomes.First());
+      Console.WriteLine("\n" + "último " + nomes.Last());
+      Console.WriteLine("\n" + "Contagem " + nomes.Count);
+      nomes.Clear();
+      Console.WriteLine("\n" + "vazio " + nomes.Count);
+    }
 
   }
 }
