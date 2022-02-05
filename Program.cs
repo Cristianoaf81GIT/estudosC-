@@ -9,7 +9,7 @@ namespace ListaI
     static void Main(string[] args)
     {
 
-      SortedSets();
+      QueuesExamples();
 
     }
 
@@ -193,6 +193,39 @@ namespace ListaI
       nomes.Clear();
       Console.WriteLine("\n" + "vazio " + nomes.Count);
     }
+    static void QueuesExamples()
+    {
+      Queue<string> fila = new Queue<string>();
+      fila.Enqueue("Gabriel");// adiciona ao final da fila
+      fila.Enqueue("Danny");
+      fila.Enqueue("Arthur");
+
+      // Console.WriteLine("Elementos na fila " + fila.Count);
+      // foreach (var item in fila)
+      // {
+      //   Console.WriteLine(item);
+      // }
+
+      // Console.WriteLine("Primeiro item da fila: " + fila.Peek());
+      // Console.WriteLine("Elementos na fila " + fila.Count);
+
+      // // Console.WriteLine("Primeiro item da fila removido: " + fila.Dequeue());
+      // Console.WriteLine("Elementos na fila " + fila.Count);
+      // Console.WriteLine(fila.First() + " primeiro item da lista sem remoção");
+      // Console.WriteLine("Último elemento da fila, sem remoção " + fila.Last());
+      // fila.Clear();// limpa a fila
+      // Console.WriteLine("items na fila " + fila.Count);
+      while (fila.Count > 0)
+      {
+        Console.WriteLine("Primeiro da fila " + fila.Dequeue());
+        Console.WriteLine("Items na fila " + fila.Count);
+        foreach (var item in fila)
+        {
+          Console.WriteLine(item);
+        }
+      }
+    }
 
   }
+
 }
